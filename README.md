@@ -1,33 +1,155 @@
-# Spotify_Music_Interactive_Dashboard
-________________________________________
-## Business Requirement
-- Spotify stakeholders (music analysts, playlist managers, and marketing teams) need a consolidated dashboard to monitor song and artist performance across different dimensions.
-- Based-n the screens provided, the business requires:
-- 1.	Overview Page
---	Track KPIs like Total Songs, Distinct Artists, Average Popularity, Avg Duration.
- -	Compare Explicit vs Non-Explicit Songs and see their share.
--	Analyze Songs by Album Type (single, album, compilation).
--	View Distinct Songs and Avg Popularity by Year.
--	Trend analysis-f Avg Popularity & Distinct Songs by Month.
--	Highlight Top Songs & Top Artists by Popularity.
-- 2.	Artist Page
--	Show Top Artists by Popularity.
--	Compare Tracks per Album and Songs by Artist.
--	Provide drill-down to artist-level data (songs, release date, avg popularity, avg position, duration).
--	Support identifying artists with consistent hits and #1 positions.
-- 3.	Songs Page
--	Rank Top Songs by Popularity.
--	Show Tracks per Song (Album/Single distribution).
--	Compare Songs by Song Count.
--	Provide detailed table with song name, release date, distinct artists, avg popularity, position, duration per year.
-________________________________________
-## 📌 Problem Statement
-- Currently, Spotify’s raw “Top 50” dataset is limited to lists and rankings, making it difficult for stakeholders to see patterns and take insights quickly.
-- From the screens, the key problems solved are:
-- •	No clear KPI monitoring → Dashboard provides quick summary-f total songs, artists, popularity, duration, etc.
-- •	Lack-f explicit vs non-explicit analysis → Users can compare how explicit songs perform vs non-explicit.
-- •	Difficulty in tracking song/album distribution → Visuals show breakdown by album type and release year.
-- •	Trend visibility missing → Popularity and distinct songs trends are shown-ver time (monthly & yearly).
-- •	Artist vs Song level insights not connected → Drill-down pages for Artists and Songs connect-verview insights to detailed records.
-- •	Decision-making gaps → Marketing and curation teams can now identify which artists/songs to promote, trends to follow, and which content resonates with audiences.
+# 🎵 Spotify Top-50 Performance Analytics Dashboard
+
+## Project Overview
+
+Spotify stakeholders such as **music analysts, playlist managers, and marketing teams** require a consolidated analytics solution to track **song and artist performance** across multiple dimensions.
+This project transforms Spotify’s **Top-50 dataset** from static rankings into an **interactive, insight-driven dashboard** that supports faster and smarter decision-making.
+
+---
+
+##  Problem Statement
+
+Spotify’s raw *Top-50* dataset is limited to simple rankings and lists, making it difficult for stakeholders to:
+
+* Monitor key performance indicators (KPIs)
+* Identify popularity trends over time
+* Compare explicit vs non-explicit content
+* Analyze artist consistency and hit performance
+* Connect high-level insights to detailed song and artist records
+
+This lack of visibility creates **decision-making gaps** for marketing, playlist curation, and content promotion teams.
+
+---
+
+## 🎯 Business Objectives
+
+* Provide quick KPI monitoring for songs and artists
+* Compare performance of **explicit vs non-explicit** tracks
+* Analyze **album type distribution** (Single, Album, Compilation)
+* Track **yearly and monthly popularity trends**
+* Enable **artist-level and song-level drill-downs**
+* Support data-driven marketing and playlist decisions
+
+---
+
+## 📊 Dashboard Pages & Features
+
+### 🔹 1. Overview Page
+
+**Key KPIs**
+
+* Total Songs
+* Distinct Artists
+* Average Popularity
+* Average Duration
+
+**Analysis Provided**
+
+* Explicit vs Non-Explicit song comparison
+* Songs by Album Type (Single / Album / Compilation)
+* Distinct Songs & Avg Popularity by Year
+* Monthly trend analysis of Popularity & Song count
+* Top Songs and Top Artists by Popularity
+
+**Business Value**
+
+* Enables stakeholders to quickly assess platform performance
+* Identifies high-performing content and emerging trends
+
+---
+
+### 🔹 2. Artist Page
+
+**Insights**
+
+* Top Artists by Popularity
+* Tracks per Album vs Songs by Artist
+* Artist-level drill-down (songs, release date, avg popularity, avg rank, duration)
+* Identification of artists with consistent hits and #1 positions
+
+**Business Value**
+
+* Helps marketing teams identify reliable and high-impact artists
+* Supports long-term artist promotion strategies
+
+---
+
+### 🔹 3. Songs Page
+
+**Insights**
+
+* Top Songs ranked by Popularity
+* Album vs Single distribution at song level
+* Song count comparison
+* Detailed song table including:
+
+  * Song Name
+  * Release Date
+  * Distinct Artists
+  * Average Popularity
+  * Chart Position
+  * Duration (per year)
+
+**Business Value**
+
+* Assists playlist managers in selecting top-performing tracks
+* Helps identify repeat-hit songs and audience favorites
+
+---
+
+## 🗂 Dataset Description
+
+The dataset contains Spotify **Top-50 chart data**, including:
+
+* Song Name
+* Artist Name
+* Popularity Score
+* Explicit Flag
+* Album Type
+* Release Date
+* Duration (ms)
+* Chart Position
+
+Data was cleaned, transformed, and modeled to support KPI calculations and trend analysis.
+
+---
+
+## 🛠 Tools & Technologies Used
+
+* **Power BI** – Dashboard development & DAX measures
+* **Excel / CSV** – Data preprocessing
+* **DAX** – KPI calculations and trend logic
+* **Data Visualization & Business Analytics**
+
+---
+
+## 📈 Key Insights
+
+* Explicit and non-explicit songs show different popularity patterns
+* Singles dominate Top-50 rankings compared to albums
+* Certain artists consistently maintain high popularity scores
+* Monthly trends reveal seasonal spikes in listener engagement
+* Artist and song drill-downs bridge high-level KPIs with detailed records
+
+---
+
+## 🚀 Business Impact
+
+This dashboard enables Spotify teams to:
+
+* Quickly monitor performance metrics
+* Identify trends and audience preferences
+* Optimize playlist curation
+* Improve marketing and promotional strategies
+* Make data-driven content decisions
+
+---
+
+## 🔮 Future Enhancements
+
+* Genre-wise performance analysis
+* Region-based popularity trends
+* Integration of streaming volume data
+* Predictive modeling for song popularity
+
 
