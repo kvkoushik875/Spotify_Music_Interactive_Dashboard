@@ -21,7 +21,7 @@ This lack of visibility creates **decision-making gaps** for marketing, playlist
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 
 * Provide quick KPI monitoring for songs and artists
 * Compare performance of **explicit vs non-explicit** tracks
@@ -34,7 +34,7 @@ This lack of visibility creates **decision-making gaps** for marketing, playlist
 
 ## 📊 Dashboard Pages & Features
 
-### 🔹 1. Overview Page
+###  1. Overview Page
 
 **Key KPIs**
 
@@ -58,7 +58,7 @@ This lack of visibility creates **decision-making gaps** for marketing, playlist
 
 ---
 
-### 🔹 2. Artist Page
+### 2. Artist Page
 
 **Insights**
 
@@ -74,7 +74,7 @@ This lack of visibility creates **decision-making gaps** for marketing, playlist
 
 ---
 
-### 🔹 3. Songs Page
+###  3. Songs Page
 
 **Insights**
 
@@ -97,7 +97,7 @@ This lack of visibility creates **decision-making gaps** for marketing, playlist
 
 ---
 
-## 🗂 Dataset Description
+##  Dataset Description
 
 The dataset contains Spotify **Top-50 chart data**, including:
 
@@ -114,7 +114,7 @@ Data was cleaned, transformed, and modeled to support KPI calculations and trend
 
 ---
 
-## 🛠 Tools & Technologies Used
+##  Tools & Technologies Used
 
 * **Power BI** – Dashboard development & DAX measures
 * **Excel / CSV** – Data preprocessing
@@ -123,7 +123,7 @@ Data was cleaned, transformed, and modeled to support KPI calculations and trend
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 
 * Explicit and non-explicit songs show different popularity patterns
 * Singles dominate Top-50 rankings compared to albums
@@ -133,7 +133,7 @@ Data was cleaned, transformed, and modeled to support KPI calculations and trend
 
 ---
 
-## 🚀 Business Impact
+##  Business Impact
 
 This dashboard enables Spotify teams to:
 
@@ -145,11 +145,13 @@ This dashboard enables Spotify teams to:
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * Genre-wise performance analysis
 * Region-based popularity trends
 * Integration of streaming volume data
 * Predictive modeling for song popularity
+
+- Get the interactive Report : https://app.powerbi.com/groups/me/reports/7a74895c-f689-451d-9d6b-f3671b13a806/9fdc1ad3535d175ab493?bookmarkGuid=b8a571b8-05c9-4d9f-97d1-3f775a3ab54d&bookmarkUsage=1&ctid=98f2531c-ef28-4c7d-a0bb-68624c1fdcc0&portalSessionId=5d49b360-f8e1-476d-a896-a2ccdbd06fc3&fromEntryPoint=export
 
 
